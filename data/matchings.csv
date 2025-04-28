@@ -1,0 +1,37 @@
+BuyerID,BuyerBudget,BuyerKreis,SellerID,OfferPrice,SellerKreis,MatchingScore,ViaBroker,FinalPrice,Comments,Gelisted
+62,717257,5,341,730164,12,91.0,True,730164,"['Standortabweichung', 'Neubau bevorzugt']",True
+304,1076580,8,397,1069837,6,91.0,True,1069837,"['Standortabweichung', 'Neubau bevorzugt']",True
+113,449264,1,403,450000,1,89.0,True,459000,"['Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+274,1360265,8,404,1324871,6,86.0,True,1324871,"['Standortabweichung', 'Altbau bevorzugt']",True
+60,1376322,1,404,1324871,6,86.0,False,1324871,"['Standortabweichung', 'Neubau bevorzugt']",True
+10,1284427,1,404,1324871,6,86.0,True,1351368,"['Standortabweichung', 'Altbau bevorzugt']",True
+306,469568,1,403,450000,1,84.0,False,459000,"['Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+167,448733,11,347,450000,10,83.0,True,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+244,469471,7,370,476757,10,83.0,False,486292,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+243,442226,4,347,450000,10,83.0,False,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+305,478846,5,370,476757,10,83.0,False,476757,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+188,1333797,1,404,1324871,6,83.0,True,1351368,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+214,454928,8,347,450000,10,83.0,False,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+165,491572,1,383,496052,10,83.0,True,505973,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+307,445647,5,347,450000,10,83.0,False,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+335,448642,6,347,450000,10,83.0,False,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+88,475508,3,370,476757,10,83.0,False,476757,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+61,825094,8,289,838016,10,83.0,False,854776,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1085869,3,397,1069837,6,83.0,True,1091234,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+372,755154,5,299,782013,10,81.0,False,782013,"['Standortabweichung', 'Fläche kleiner als Wunschfläche']",True
+273,1020072,3,397,1069837,6,78.0,True,1069837,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+337,747716,8,299,782013,10,78.0,False,782013,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+276,756547,1,299,782013,10,78.0,True,797653,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+7,431425,11,347,450000,10,78.0,False,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+191,433587,3,347,450000,10,78.0,False,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+168,1042946,1,397,1069837,6,78.0,False,1069837,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,546555,5,383,496052,10,70.5,True,505973,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+86,544073,5,383,496052,10,70.5,False,505973,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+63,535614,3,383,496052,10,70.5,False,496052,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+272,2279183,5,289,838016,10,66.0,True,854776,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+215,1766069,7,341,730164,12,66.0,False,730164,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
+190,1588498,1,397,1069837,6,66.0,False,1069837,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
+131,2053389,8,341,730164,12,66.0,True,744767,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+339,1908840,7,404,1324871,6,66.0,False,1351368,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+374,2746832,8,404,1324871,6,66.0,False,1324871,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+336,946863,11,289,838016,10,58.0,False,854776,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
