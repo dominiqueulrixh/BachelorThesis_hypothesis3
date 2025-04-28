@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def get_market_state_by_kreis(model):
-    """Aggregiert den aktuellen Marktstatus nach KreisCd (Quartier)."""
+    # Aggregiert aktuellen Marktstatus nach KreisCd (Quartier)
     kreise = model.building_data['KreisCd'].unique()
 
     data = []
@@ -38,7 +38,7 @@ def get_market_state_by_kreis(model):
     return df
 
 def plot_market_state(df, current_week):
-    """Plottet den erweiterten Marktstatus als Übersicht."""
+    # Übersicht erweiterten Marktstatus
     ax = df.set_index("Kreis")[[
         "Aktive Käufer:innen",
         "Potentielle Käufer:innen",
@@ -47,7 +47,7 @@ def plot_market_state(df, current_week):
     ]].plot(
         kind="bar",
         figsize=(16, 8),
-        stacked=True  # schönere Übersicht
+        stacked=True
     )
     plt.title(f"Marktübersicht Zürich – Kalenderwoche {current_week}")
     plt.ylabel("Anzahl Agent:innen")
@@ -56,7 +56,6 @@ def plot_market_state(df, current_week):
     plt.grid(True)
     plt.tight_layout()
     plt.show()
-
 
 
 def generate_early_warnings(market_df, demand_threshold=1.5, supply_threshold=2):
@@ -74,7 +73,7 @@ def generate_early_warnings(market_df, demand_threshold=1.5, supply_threshold=2)
         if sellers == 0 and buyers >= supply_threshold:
             warnings.append(f"⚡ Kein Angebot in Kreis {kreis}, aber {buyers} aktive Käufer:innen!")
         else:
-            demand_supply_ratio = buyers / (sellers + 1e-5)  # Minikorrektur: Division durch eine kleine Zahl statt 0
+            demand_supply_ratio = buyers / (sellers + 1e-5)
             if demand_supply_ratio > demand_threshold:
                 warnings.append(f"🚨 Hohe Nachfrage in Kreis {kreis}: {buyers} Käufer:innen auf {sellers} Angebote (Ratio: {demand_supply_ratio:.2f})")
 

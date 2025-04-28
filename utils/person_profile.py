@@ -10,10 +10,10 @@ class PersonProfile:
         self.budget = self.estimate_budget()
 
     def estimate_income(self, p50, p25, p75):
-        """Zufälliges Einkommen innerhalb der Verteilung schätzen."""
+        # Zufälliges Einkommen innerhalb der Verteilung
         return random.uniform(p25, p75)
 
     def estimate_budget(self):
-        """Typisches Kaufbudget: Einkommen × Faktor."""
-        factor = random.uniform(10, 14)  # mehr realistische Kaufkraft für Zürich
+        # Typisches Kaufbudget: Einkommen × Faktor
+        factor = random.uniform(10, 14)
         return self.income * 1000 * factor

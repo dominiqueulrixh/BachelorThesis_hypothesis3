@@ -1,5 +1,4 @@
 from mesa import Agent
-from agents.buyer_agent import BuyerAgent
 import random
 from utils.property_valuation import estimate_price
 
@@ -11,7 +10,7 @@ class SellerAgent(Agent):
         self.build_year_category = building_info['BauperiodeLevel1Lang']
         self.price = min(estimate_price(self.location, self.build_year_category, self.area), 2_500_000)
         self.listed = True
-        self.status = "active"  # 🟢 Korrekt: Verkäufer:innen starten aktiv!
+        self.status = "active"
         self.age = age
         self.forced_broker = age >= 70  # Verkaufsdruck bei Alter >= 70
 

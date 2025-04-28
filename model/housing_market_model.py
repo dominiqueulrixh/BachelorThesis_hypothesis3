@@ -7,6 +7,7 @@ from agents.seller_agent import SellerAgent
 from agents.potentialSeller_agent import PotentialSellerAgent
 from agents.broker_agent import BrokerAgent
 from agents.bank_agent import BankAgent
+from agents.test_agent import TestAgent
 
 from data.data_loader import load_population_data, load_income_data, load_building_data, load_trends_data
 from utils.person_profile import PersonProfile
@@ -20,15 +21,16 @@ class HousingMarketModel(Model):
         self.num_agents = 0
         self.current_week = 0
 
-        self.interest_rate_trend = np.linspace(2.5, 1.5, 52)  # Zinssenkung über das Jahr
+        # Zinssenkung über Jahr
+        self.interest_rate_trend = np.linspace(2.5, 1.5, 52)
 
-        # --- Daten laden ---
+        # Daten laden
         self.population_data = load_population_data()
         self.income_data = load_income_data()
         self.building_data = load_building_data()
         self.buy_trends, self.luxury_trends = load_trends_data()
 
-        # --- Agenten erstellen ---
+        # Agenten erstellen
 
         # BankAgent: Zinspolitik
         self.bank = BankAgent(self.num_agents, self, self.interest_rate_trend)
@@ -40,7 +42,7 @@ class HousingMarketModel(Model):
         self.schedule.add(self.broker)
         self.num_agents += 1
 
-        # Käufer:innen (BuyerAgents)
+        # BuyerAgents
         for _ in range(n_buyers):
             profile = self.generate_person_profile(buyer=True)
             preference_score = random.uniform(0, 1)
@@ -48,7 +50,7 @@ class HousingMarketModel(Model):
             self.schedule.add(buyer)
             self.num_agents += 1
 
-        # Verkäufer:innen (SellerAgents)
+        # SellerAgents
         for _ in range(n_sellers):
             building_info = self.sample_building_info()
             seller_age = random.randint(30, 90)
@@ -56,14 +58,14 @@ class HousingMarketModel(Model):
             self.schedule.add(seller)
             self.num_agents += 1
 
-        # Potentielle Verkäufer:innen (PotentialSellerAgents)
+        # PotentialSellerAgents
         for _ in range(n_potential_sellers):
             expected_building_info = self.sample_building_info()
             potential_seller = PotentialSellerAgent(self.num_agents, self, expected_building_info)
             self.schedule.add(potential_seller)
             self.num_agents += 1
 
-        # --- DataCollector für Simulationsergebnisse ---
+        # DataCollector für Simulationsergebnisse
         self.datacollector = DataCollector(
             model_reporters={
                 "Verkäufe": lambda m: m.broker.completed_sales,
@@ -76,6 +78,11 @@ class HousingMarketModel(Model):
                 )
             }
         )
+
+        # TestAgent hinzufügen
+        self.test_agent = TestAgent(self.num_agents, self)
+        self.schedule.add(self.test_agent)
+        self.num_agents += 1
 
     def generate_person_profile(self, buyer=True):
         if buyer:

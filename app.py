@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 from backend import load_buyers, load_sellers, get_matchings
 
-# --- Seitenwahl ---
+# Seitenwahl
 st.sidebar.title("Navigation")
 page = st.sidebar.selectbox("Seite wählen:", ["Übersicht", "Maklerbereich"])
 
-# --- Übersicht ---
+# Übersicht
 if page == "Übersicht":
     st.title("🏡 Immobilienmarkt Zürich – Übersicht")
 
@@ -36,11 +36,11 @@ if page == "Übersicht":
     except FileNotFoundError as e:
         st.error(f"Fehler beim Laden der Daten: {e}")
 
-# --- Maklerbereich ---
+#  Maklerbereich 
 elif page == "Maklerbereich":
     st.title("🧑‍💼 Maklerbereich: Marktbeobachtung & Matching")
 
-    # Käufer:innen & Verkäufer:innen laden
+    # Käufer & Listungs/Verkäufer laden
     buyers = load_buyers()
     sellers = load_sellers()
 
@@ -55,7 +55,7 @@ elif page == "Maklerbereich":
     if st.button("👀 Marktbeobachtungen anzeigen"):
         st.session_state.market_view = "active"
 
-    # --- Buttons für Verkäufer:innen ---
+    #  Buttons für Verkäufer:innen 
     col1, col2 = st.columns(2)
 
     if st.session_state.market_view != "none":
@@ -80,7 +80,7 @@ elif page == "Maklerbereich":
             potential_sellers = sellers[sellers["Gelisted"] == False]
             st.dataframe(potential_sellers)
 
-    # --- Kaufvorschläge ---
+    #  Kaufvorschläge 
     st.subheader("🏠 Kaufvorschläge")
     matching_threshold = st.slider("Mindest-Matching-Score (%)", 50, 100, 70)
 
@@ -90,18 +90,16 @@ elif page == "Maklerbereich":
     if "best_matchings" not in st.session_state:
         st.session_state.best_matchings = None
 
-    # Button: Vorschläge laden
+    # Vorschläge laden
     if st.button("💬 Kaufvorschläge anzeigen"):
         matchings = get_matchings(threshold=matching_threshold)
-
-        # Alle Matches speichern
         st.session_state.matchings = matchings
 
-        # Nur bestes Match je Käufer:in für Übersicht
+        # Nur bestes Match je Käufer für Übersicht
         best_matchings = matchings.sort_values("MatchingScore", ascending=False).drop_duplicates(subset=["BuyerID"])
         st.session_state.best_matchings = best_matchings
 
-    # --- Nur wenn Matching vorhanden ist ---
+    #  Nur wenn Matching vorhanden ist 
     if st.session_state.best_matchings is not None:
         st.subheader("📋 Übersicht beste Kaufvorschläge")
         st.dataframe(st.session_state.best_matchings)
@@ -110,7 +108,6 @@ elif page == "Maklerbereich":
         selected_match = st.selectbox("Details zu Käufer:", st.session_state.best_matchings["BuyerID"].unique())
 
         if selected_match:
-            # Käuferprofil holen
             selected_buyer_row = buyers[buyers["BuyerID"] == selected_match]
 
             if not selected_buyer_row.empty:
@@ -129,7 +126,6 @@ elif page == "Maklerbereich":
                     st.session_state.matchings["BuyerID"] == selected_match
                     ]
 
-                # Nur relevante Spalten anzeigen
                 relevant_columns = [
                     "SellerID", "OfferPrice", "SellerKreis", "MatchingScore",
                     "ViaBroker", "FinalPrice", "Comments"

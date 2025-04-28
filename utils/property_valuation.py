@@ -1,7 +1,6 @@
 import random
 
 def estimate_price(kreis, bauperiode, flaeche):
-    """Schätzt Immobilienpreis basierend auf Lage, Baujahr, Fläche – inkl. Preisjitter."""
     # Basispreise nach Kreis
     base_price_by_kreis = {
         1: 17000, 2: 16000, 3: 15000, 4: 14000,
@@ -10,7 +9,7 @@ def estimate_price(kreis, bauperiode, flaeche):
     }
     base_price = base_price_by_kreis.get(kreis, 10000)
 
-    # Bauperioden-Modifikator
+    # Bauperioden
     if "Vor 1893" in bauperiode or "1893 - 1899" in bauperiode:
         modifier = 1.05
     elif "1970 - 1989" in bauperiode:
@@ -25,7 +24,7 @@ def estimate_price(kreis, bauperiode, flaeche):
     # Basispreis berechnen
     price = flaeche * base_price * modifier
 
-    # Preisjitter ±5%
+    # Preis plusMinus 5%
     price_jitter = random.uniform(-0.05, 0.05)
     price *= (1 + price_jitter)
 

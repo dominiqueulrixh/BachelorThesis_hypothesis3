@@ -37,15 +37,14 @@ class BrokerAgent(Agent):
             print("❗ Keine aktiven Verkäufer gefunden.")
 
         for buyer in active_buyers:
-            for seller in active_sellers:  # --- ACHTUNG: direkt in alle Kombinationen gehen!
+            for seller in active_sellers:
 
                 comments = []
 
-                # Preis über harte Grenze?
+                # Preis über harte Grenze
                 if seller.price > buyer.budget * 1.1:
                     continue
 
-                # Einzel-Scores
                 preis_diff = abs(seller.price - buyer.budget) / buyer.budget
                 if preis_diff < 0.02:
                     preis_score = 100
@@ -88,7 +87,7 @@ class BrokerAgent(Agent):
                                flaeche_score * 0.2 +
                                bau_score * 0.1)
 
-                # --- NEU: Jedes Matching mit gutem Score speichern ---
+                # Matching mit gutem Score speichern
                 if final_score >= 50:
                     suggestions.append({
                         "BuyerID": buyer.unique_id,

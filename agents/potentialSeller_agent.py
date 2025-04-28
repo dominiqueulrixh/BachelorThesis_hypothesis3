@@ -4,8 +4,6 @@ from utils.property_valuation import estimate_price
 from agents.seller_agent import SellerAgent
 from agents.buyer_agent import BuyerAgent
 
-
-
 class PotentialSellerAgent(Agent):
     def __init__(self, unique_id, model, expected_building_info):
         super().__init__(unique_id, model)
@@ -14,7 +12,7 @@ class PotentialSellerAgent(Agent):
         self.build_year_category = expected_building_info['BauperiodeLevel1Lang']
         self.expected_price = estimate_price(self.location, self.build_year_category, self.area)
         self.ready_to_sell = False
-        self.status = "active"  # 🟢 Korrekt: Start als aktiv!
+        self.status = "active"
 
     def step(self):
         active_buyers = sum(
