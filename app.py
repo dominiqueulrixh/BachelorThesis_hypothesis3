@@ -132,7 +132,7 @@ elif page == "Maklerbereich":
                 # Nur relevante Spalten anzeigen
                 relevant_columns = [
                     "SellerID", "OfferPrice", "SellerKreis", "MatchingScore",
-                    "ViaBroker", "FinalPrice", "Gelisted", "Comments"
+                    "ViaBroker", "FinalPrice", "Comments"
                 ]
                 detailed_matches_display = detailed_matches[relevant_columns]
 
