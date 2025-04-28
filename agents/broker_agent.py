@@ -37,18 +37,15 @@ class BrokerAgent(Agent):
             print("❗ Keine aktiven Verkäufer gefunden.")
 
         for buyer in active_buyers:
-            best_match = None
-            best_score = 0
+            for seller in active_sellers:  # --- ACHTUNG: direkt in alle Kombinationen gehen!
 
-            for seller in active_sellers:
                 comments = []
 
                 # Preis über harte Grenze?
                 if seller.price > buyer.budget * 1.1:
                     continue
 
-                # --- Einzel-Scores ---
-                # Preis-Score
+                # Einzel-Scores
                 preis_diff = abs(seller.price - buyer.budget) / buyer.budget
                 if preis_diff < 0.02:
                     preis_score = 100
@@ -60,21 +57,18 @@ class BrokerAgent(Agent):
                     preis_score = 50
                     comments.append("Preis über Budget")
 
-                # Standort-Score
                 if buyer.location == seller.location:
                     standort_score = 100
                 else:
                     standort_score = 70
                     comments.append("Standortabweichung")
 
-                # Flächen-Score
                 if seller.area >= buyer.min_area:
                     flaeche_score = 100
                 else:
                     flaeche_score = 60
                     comments.append("Fläche kleiner als Wunschfläche")
 
-                # Bauperiode-Score
                 if buyer.prefers_new_building:
                     if any(x in seller.build_year_category for x in ["2000", "2010", "2020"]):
                         bau_score = 100
@@ -88,14 +82,15 @@ class BrokerAgent(Agent):
                         bau_score = 70
                         comments.append("Altbau bevorzugt")
 
-                # --- Gesamtscore als gewichteter Durchschnitt ---
-                final_score = (preis_score * 0.5 + standort_score * 0.2 +
-                               flaeche_score * 0.2 + bau_score * 0.1)
+                # Gesamtscore
+                final_score = (preis_score * 0.5 +
+                               standort_score * 0.2 +
+                               flaeche_score * 0.2 +
+                               bau_score * 0.1)
 
-                # Bester Match für diesen Käufer merken
-                if final_score > best_score:
-                    best_score = final_score
-                    best_match = {
+                # --- NEU: Jedes Matching mit gutem Score speichern ---
+                if final_score >= 50:
+                    suggestions.append({
                         "BuyerID": buyer.unique_id,
                         "BuyerBudget": round(buyer.budget),
                         "BuyerKreis": buyer.location,
@@ -106,12 +101,8 @@ class BrokerAgent(Agent):
                         "ViaBroker": random.choice([True, False]),
                         "FinalPrice": round(seller.price * (1.02 if random.random() > 0.5 else 1.0)),
                         "Comments": comments,
-                        "Gelisted": seller.listed  # NEU: Gelistet-Status ins Matching aufnehmen
-
-                    }
-
-            if best_match and best_match["MatchingScore"] >= 50:
-                suggestions.append(best_match)
+                        "Gelisted": seller.listed
+                    })
 
         return suggestions
 

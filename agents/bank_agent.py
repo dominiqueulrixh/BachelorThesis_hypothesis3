@@ -10,12 +10,10 @@ class BankAgent(Agent):
     def step(self):
         # Fortschreibung des Zinsniveaus
         if self.model.current_week < len(self.interest_rate_trend):
-            base_rate = self.interest_rate_trend[self.model.current_week]
+            base_rate = self.model.interest_rate_trend[self.model.current_week]
         else:
-            base_rate = self.interest_rate_trend[-1]
+            base_rate = self.model.interest_rate_trend[-1]
 
-        # Kleine Zufallsschwankungen simulieren (z.B. Marktunsicherheiten)
-        random_fluctuation = random.uniform(-0.05, 0.05)  # +/- 0.05%
+        # Kleine Zufallsschwankungen simulieren
+        random_fluctuation = random.uniform(-0.05, 0.05)
         self.current_interest_rate = max(0, base_rate + random_fluctuation)
-
-        # Einfluss: Banken könnten später auf sehr hohe Luxuskonsumdaten reagieren (optional)

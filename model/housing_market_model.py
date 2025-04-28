@@ -7,11 +7,9 @@ from agents.seller_agent import SellerAgent
 from agents.potentialSeller_agent import PotentialSellerAgent
 from agents.broker_agent import BrokerAgent
 from agents.bank_agent import BankAgent
-from agents.city_agent import CityAgent
 
 from data.data_loader import load_population_data, load_income_data, load_building_data, load_trends_data
 from utils.person_profile import PersonProfile
-from utils.property_valuation import estimate_price
 
 import random
 import numpy as np
@@ -35,11 +33,6 @@ class HousingMarketModel(Model):
         # BankAgent: Zinspolitik
         self.bank = BankAgent(self.num_agents, self, self.interest_rate_trend)
         self.schedule.add(self.bank)
-        self.num_agents += 1
-
-        # CityAgent: Städteplanung
-        self.city = CityAgent(self.num_agents, self)
-        self.schedule.add(self.city)
         self.num_agents += 1
 
         # BrokerAgent: Vermittlung
@@ -77,12 +70,14 @@ class HousingMarketModel(Model):
                 "Angebot": lambda m: sum(1 for a in m.schedule.agents if isinstance(a, SellerAgent) and a.listed and a.status == "active"),
                 "Nachfrage": lambda m: sum(1 for a in m.schedule.agents if isinstance(a, BuyerAgent) and a.active and a.status == "active"),
                 "Zinsniveau": lambda m: m.bank.current_interest_rate,
-                "LuxuskonsumIndex": lambda m: m.luxury_trends[m.current_week] if m.current_week < len(m.luxury_trends) else 50
+                "LuxuskonsumIndex": lambda m: m.luxury_trends[m.current_week] if m.current_week < len(m.luxury_trends) else 50,
+                "Potenzielle Verkäufer": lambda m: sum(
+                    1 for a in m.schedule.agents if isinstance(a, SellerAgent) and not a.listed and a.status == "active"
+                )
             }
         )
 
     def generate_person_profile(self, buyer=True):
-        """Erstellt realistisches PersonProfile für Käufer oder Verkäufer."""
         if buyer:
             valid_ages = ["30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69"]
         else:
@@ -99,14 +94,11 @@ class HousingMarketModel(Model):
 
         kreis = int(person_row['Kreis'])
 
-        # Einkommen aus passendem Kreis UND passendem SteuerTarif wählen
         income_rows = self.income_data[self.income_data['KreisCd'] == kreis]
 
         if buyer:
-            # Käufer:innen: eher SteuerTarifCd 0 (Single) oder 1 (Verheiratet)
             income_rows = income_rows[income_rows['SteuerTarifCd'].isin([0, 1])]
         else:
-            # Verkäufer:innen: auch SteuerTarifCd 1 oder 2 (Familien)
             income_rows = income_rows[income_rows['SteuerTarifCd'].isin([1, 2])]
 
         if income_rows.empty:
@@ -125,12 +117,11 @@ class HousingMarketModel(Model):
         )
 
     def sample_building_info(self):
-        """Zufälliges realistisches Gebäude auswählen + Fläche jittern."""
         valid_buildings = self.building_data[
             (self.building_data['GbdFlaecheAufN'] > 0) &
             (self.building_data['GbdFlaecheAufN'] / self.building_data['AnzGbd'] < 150) &
             (self.building_data['GbdFlaecheAufN'] / self.building_data['AnzGbd'] * 12000 < 1_500_000)
-            ]
+        ]
 
         if valid_buildings.empty:
             building_row = self.building_data.sample(1).iloc[0]
@@ -145,7 +136,6 @@ class HousingMarketModel(Model):
         else:
             single_building_area = gesamtfläche
 
-        # Jitter Fläche: ±10m² (float)
         jitter = np.random.uniform(-10, 10)
         adjusted_single_building_area = max(10, single_building_area + jitter)
 
@@ -156,16 +146,19 @@ class HousingMarketModel(Model):
         }
 
     def step(self):
-        """Ein Simulationsschritt: Alle Agenten bewegen sich, neue treten auf, Verkäufe geschehen."""
-        self.datacollector.collect(self)
-        self.schedule.step()
         self.current_week += 1
 
-        if self.current_week % 4 == 0:  # jeden Monat neue Akteure
+        for agent in self.schedule.agents:
+            if isinstance(agent, BuyerAgent):
+                agent.adjust_activity_based_on_interest_rate(self.bank.current_interest_rate)
+
+        if self.current_week % 4 == 0:
             self.add_new_buyers(5)
             self.add_new_sellers(2)
 
         self.age_sellers()
+        self.schedule.step()
+        self.datacollector.collect(self)
 
     def register_sale(self, buyer, seller):
         seller.listed = False
@@ -174,7 +167,7 @@ class HousingMarketModel(Model):
         self.broker.completed_sales += 1
 
     def get_price_trend(self):
-        return 0.02 / 52  # konstante Preissteigerung 2% p.a.
+        return 0.02 / 52
 
     def add_new_buyers(self, n):
         for _ in range(n):

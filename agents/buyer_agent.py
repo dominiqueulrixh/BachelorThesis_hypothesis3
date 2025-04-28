@@ -22,7 +22,10 @@ class BuyerAgent(Agent):
         # --- Aktivierung basierend auf Google Trends und Luxuskonsum ---
         if self.model.current_week < len(self.model.buy_trends):
             impulse = float(self.model.buy_trends[self.model.current_week])
-            luxury = float(self.model.luxury_trends[self.model.current_week])
+            if self.model.current_week < len(self.model.luxury_trends):
+                luxury = float(self.model.luxury_trends[self.model.current_week])
+            else:
+                luxury = float(self.model.luxury_trends[-1])  # Letzten bekannten Wert verwenden
         else:
             impulse = 0.3  # Fallback
             luxury = 0.3
@@ -40,3 +43,14 @@ class BuyerAgent(Agent):
             if listings:
                 chosen = self.random.choice(listings)
                 self.model.broker.mediate_transaction(self, chosen)
+
+    def adjust_activity_based_on_interest_rate(self, current_interest_rate):
+        """Passt die Aktivität des Käufers basierend auf dem aktuellen Zinsniveau an."""
+        if current_interest_rate < 1.5:
+            self.active = True
+        elif 1.5 <= current_interest_rate < 2.5:
+            self.active = random.random() > 0.10  # 90% bleiben aktiv
+        elif 2.5 <= current_interest_rate < 3.5:
+            self.active = random.random() > 0.30  # 70% bleiben aktiv
+        else:
+            self.active = random.random() > 0.50  # 50% bleiben aktiv

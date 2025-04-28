@@ -52,7 +52,7 @@ elif page == "Maklerbereich":
         st.session_state.matchings = None
         st.session_state.best_matchings = None
 
-    if st.button("🔄 Marktbeobachtungen anzeigen"):
+    if st.button("👀 Marktbeobachtungen anzeigen"):
         st.session_state.market_view = "active"
 
     # --- Buttons für Verkäufer:innen ---
@@ -84,31 +84,37 @@ elif page == "Maklerbereich":
     st.subheader("🏠 Kaufvorschläge")
     matching_threshold = st.slider("Mindest-Matching-Score (%)", 50, 100, 70)
 
+    # Session-Variablen initialisieren
     if "matchings" not in st.session_state:
         st.session_state.matchings = None
+    if "best_matchings" not in st.session_state:
         st.session_state.best_matchings = None
 
+    # Button: Vorschläge laden
     if st.button("💬 Kaufvorschläge anzeigen"):
         matchings = get_matchings(threshold=matching_threshold)
 
-        # Bestes Matching je Käufer:in
-        best_matchings = matchings.sort_values("MatchingScore", ascending=False).drop_duplicates(subset=["BuyerID"])
-
+        # Alle Matches speichern
         st.session_state.matchings = matchings
+
+        # Nur bestes Match je Käufer:in für Übersicht
+        best_matchings = matchings.sort_values("MatchingScore", ascending=False).drop_duplicates(subset=["BuyerID"])
         st.session_state.best_matchings = best_matchings
 
     # --- Nur wenn Matching vorhanden ist ---
-    if st.session_state.matchings is not None and st.session_state.best_matchings is not None:
+    if st.session_state.best_matchings is not None:
+        st.subheader("📋 Übersicht beste Kaufvorschläge")
         st.dataframe(st.session_state.best_matchings)
 
+        # Käufer-Auswahl
         selected_match = st.selectbox("Details zu Käufer:", st.session_state.best_matchings["BuyerID"].unique())
 
-        if selected_match is not None:
-            # Käuferprofil laden (NEU)
+        if selected_match:
+            # Käuferprofil holen
             selected_buyer_row = buyers[buyers["BuyerID"] == selected_match]
 
             if not selected_buyer_row.empty:
-                buyer_info = selected_buyer_row.iloc[0]  # genau 1 Zeile
+                buyer_info = selected_buyer_row.iloc[0]
 
                 st.subheader(f"👤 Käuferprofil: ID {buyer_info['BuyerID']}")
                 st.markdown(f"""
@@ -118,12 +124,16 @@ elif page == "Maklerbereich":
                 **Einkommen:** {buyer_info['Einkommen (CHF)']:,} CHF  
                 """)
 
-                # Passende Listings anzeigen
-                # Nur relevante Seller-Infos für die Tabelle auswählen
-                detailed_matches = st.session_state.matchings[st.session_state.matchings["BuyerID"] == selected_match]
+                # Alle passenden Listings dieses Käufers
+                detailed_matches = st.session_state.matchings[
+                    st.session_state.matchings["BuyerID"] == selected_match
+                    ]
 
-                relevant_columns = ["SellerID", "OfferPrice", "SellerKreis", "MatchingScore", "ViaBroker", "FinalPrice",
-                                    "Gelisted", "Comments"]
+                # Nur relevante Spalten anzeigen
+                relevant_columns = [
+                    "SellerID", "OfferPrice", "SellerKreis", "MatchingScore",
+                    "ViaBroker", "FinalPrice", "Gelisted", "Comments"
+                ]
                 detailed_matches_display = detailed_matches[relevant_columns]
 
                 st.subheader("🏠 Passende Immobilienangebote:")

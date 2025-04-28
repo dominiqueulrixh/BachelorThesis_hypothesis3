@@ -10,17 +10,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# Hilfsfunktion: Fläche leicht variieren
-def jitter_area(area):
-    if area <= 50:
-        jitter = np.random.uniform(-5, 5)  # Kleine Gebäude kleinere Schwankung
-    elif area <= 150:
-        jitter = np.random.uniform(-7, 7)  # Mittlere Gebäude
-    else:
-        jitter = np.random.uniform(-10, 10)  # Große Gebäude
-
-    return max(10, area + jitter)  # Nie kleiner als 10 m²!
-
 # --- Modell starten ---
 model = HousingMarketModel(
     n_buyers=20,
@@ -35,21 +24,72 @@ for _ in range(52):  # 52 Wochen
 # --- Ergebnisse abrufen ---
 results = model.datacollector.get_model_vars_dataframe()
 
-# --- Ergebnisse visualisieren ---
+# ---------------------------------
+# 📈 Diagramm 1: Marktspannung
+# ---------------------------------
+marktspannung = results["Nachfrage"] / results["Angebot"]
+
 plt.figure(figsize=(12, 6))
-plt.plot(results["Verkäufe"], label="Kumulative Verkäufe")
-plt.plot(results["Angebot"], label="Angebot (aktive Listings)")
-plt.plot(results["Nachfrage"], label="Nachfrage (aktive Käufer:innen)")
-plt.plot(results["Zinsniveau"], label="Zinsniveau (BankAgent)", linestyle="--")
+plt.plot(marktspannung, marker='o', linestyle='-', color='purple')
+plt.axhline(1, color='grey', linestyle='--', label="Gleichgewicht Käufer/Verkäufer")
 plt.xlabel("Kalenderwoche")
-plt.ylabel("Anzahl / Prozent")
-plt.title("Immobilienmarktaktivität (Prototyp Hypothese 3)")
+plt.ylabel("Nachfrage / Angebot Verhältnis")
+plt.title("📈 Marktspannung: Käufer- zu Verkäuferverhältnis")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# --- Käufer:innen Übersicht ---
+# ---------------------------------
+# 📈 Diagramm 2: Dynamik der Marktakteure
+# ---------------------------------
+plt.figure(figsize=(14, 7))
+plt.stackplot(
+    results.index,
+    results["Nachfrage"],
+    results["Angebot"],
+    results["Potenzielle Verkäufer"],
+    labels=["Nachfrage", "Angebot", "Potenzielle Verkäufer"],
+    colors=["orange", "green", "red"],
+    alpha=0.7
+)
+plt.xlabel("Kalenderwoche")
+plt.ylabel("Anzahl Akteure")
+plt.title("📊 Dynamik der Marktakteure (Stacked Area Chart)")
+plt.legend(loc='upper left')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+# ---------------------------------
+# 📈 Diagramm 3: Käuferaktivierung vs. Zinsniveau
+# ---------------------------------
+buyers_activation = results["Nachfrage"] / (results["Nachfrage"] + results["Potenzielle Verkäufer"])
+
+plt.figure(figsize=(12, 6))
+plt.plot(results.index, buyers_activation, label="Aktivierungsrate Käufer:innen", color="blue")
+plt.plot(results.index, results["Zinsniveau"]/max(results["Zinsniveau"]), label="Normiertes Zinsniveau", linestyle="--", color="black")
+plt.xlabel("Kalenderwoche")
+plt.ylabel("Rate / Zinsniveau (normalisiert)")
+plt.title("💡 Aktivierungsrate Käufer:innen vs. Zinsentwicklung")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+# ---------------------------------
+# 📈 Diagramm 4: Verkaufserfolg pro Woche
+# ---------------------------------
+plt.figure(figsize=(12, 6))
+plt.bar(results.index, results["Verkäufe"], color="teal")
+plt.xlabel("Kalenderwoche")
+plt.ylabel("Anzahl Verkäufe")
+plt.title("🏠 Anzahl Verkäufe pro Woche")
+plt.grid(axis='y')
+plt.tight_layout()
+plt.show()
+
+# --- Käufer:innen Übersicht erstellen ---
 buyers_data = []
 for agent in model.schedule.agents:
     if isinstance(agent, BuyerAgent):
@@ -65,29 +105,21 @@ buyers_df = pd.DataFrame(buyers_data)
 print("\n🧍 Übersicht der Käufer:innen:")
 print(buyers_df)
 
-# --- Verkäufer:innen Übersicht ---
+# --- Verkäufer:innen Übersicht erstellen ---
 sellers_data = []
 for agent in model.schedule.agents:
     if isinstance(agent, SellerAgent):
-        # Fläche jittern
-        original_area = agent.area
-        adjusted_area = jitter_area(original_area)
-
-        # Preis proportional anpassen
-        price_per_m2 = agent.price / original_area if original_area > 0 else 10000  # fallback
-        adjusted_price = adjusted_area * price_per_m2
-
         sellers_data.append({
             "Kreis (Immobilie)": agent.location,
-            "Fläche (m²)": round(adjusted_area, 2),
+            "Fläche (m²)": round(agent.area, 2),
             "Bauperiode": agent.build_year_category,
-            "Preis (CHF)": round(adjusted_price),
+            "Preis (CHF)": round(agent.price),
             "Gelisted": agent.listed
         })
 
 sellers_df = pd.DataFrame(sellers_data)
 
-# --- Verkäufer:innen sortieren: Gelistete zuerst ---
+# Verkäufer:innen: Gelistete zuerst anzeigen
 sellers_df = sellers_df.sort_values(by="Gelisted", ascending=False).reset_index(drop=True)
 
 print("\n🏠 Übersicht der Verkäufer:innen:")
@@ -118,7 +150,7 @@ if suggestions:
 else:
     print("Keine passenden Kaufvorschläge gefunden.")
 
-# --- Matching Übersicht ---
+# --- Kaufvorschläge Übersicht ---
 matches = model.broker.suggest_matches()
 matching_df = create_matching_dataframe(matches)
 
