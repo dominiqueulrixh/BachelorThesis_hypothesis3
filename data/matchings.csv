@@ -1,261 +1,226 @@
 BuyerID,BuyerBudget,BuyerKreis,SellerID,OfferPrice,SellerKreis,MatchingScore,ViaBroker,FinalPrice,Comments,Gelisted
-381,800974,12,330,838297,12,92.0,False,855063,['Altbau bevorzugt'],True
-415,845462,2,280,858829,12,91.0,True,858829,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,393,867816,12,91.0,False,885172,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,280,858829,12,91.0,False,876006,"['Standortabweichung', 'Neubau bevorzugt']",True
-19,826551,1,330,838297,12,91.0,True,855063,"['Standortabweichung', 'Altbau bevorzugt']",True
-415,845462,2,330,838297,12,91.0,True,838297,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,123,880811,12,86.0,True,880811,"['Standortabweichung', 'Neubau bevorzugt']",True
-226,813820,4,330,838297,12,86.0,True,855063,"['Standortabweichung', 'Neubau bevorzugt']",True
-415,845462,2,123,880811,12,86.0,True,898427,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,402,882810,12,86.0,False,882810,"['Standortabweichung', 'Neubau bevorzugt']",True
-19,826551,1,393,867816,12,86.0,True,867816,"['Standortabweichung', 'Altbau bevorzugt']",True
-19,826551,1,280,858829,12,86.0,True,876006,"['Standortabweichung', 'Altbau bevorzugt']",True
-223,806885,1,330,838297,12,86.0,True,855063,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,330,838297,12,86.0,False,838297,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,354,878847,12,86.0,False,896424,"['Standortabweichung', 'Neubau bevorzugt']",True
-415,845462,2,354,878847,12,86.0,True,878847,"['Standortabweichung', 'Neubau bevorzugt']",True
-86,1846008,8,228,1895228,2,86.0,True,1933133,"['Standortabweichung', 'Neubau bevorzugt']",True
-108,798980,1,330,838297,12,86.0,True,838297,"['Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,323,1206694,3,86.0,False,1206694,"['Standortabweichung', 'Neubau bevorzugt']",True
-415,845462,2,393,867816,12,86.0,False,867816,"['Standortabweichung', 'Neubau bevorzugt']",True
-419,803674,8,330,838297,12,86.0,True,838297,"['Standortabweichung', 'Altbau bevorzugt']",True
-316,936404,1,216,890152,12,86.0,True,890152,"['Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,368,1233183,3,86.0,True,1257847,"['Standortabweichung', 'Neubau bevorzugt']",True
-289,858531,2,216,890152,12,86.0,True,907955,"['Standortabweichung', 'Neubau bevorzugt']",True
-167,807583,2,330,838297,12,86.0,False,855063,"['Standortabweichung', 'Altbau bevorzugt']",True
-415,845462,2,402,882810,12,86.0,False,900466,"['Standortabweichung', 'Neubau bevorzugt']",True
-381,800974,12,354,878847,12,84.5,True,878847,['Altbau bevorzugt'],True
-381,800974,12,280,858829,12,84.5,True,876006,['Altbau bevorzugt'],True
-381,800974,12,123,880811,12,84.5,False,898427,['Altbau bevorzugt'],True
-381,800974,12,393,867816,12,84.5,False,885172,['Altbau bevorzugt'],True
-315,1116637,10,244,1128930,3,83.0,True,1151509,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-315,1116637,10,332,1122441,3,83.0,False,1144890,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-137,1875834,1,228,1895228,2,83.0,False,1895228,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-165,875682,1,123,880811,12,83.0,True,880811,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-165,875682,1,402,882810,12,83.0,True,900466,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-165,875682,1,216,890152,12,83.0,True,890152,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,368,1233183,3,83.0,True,1257847,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-165,875682,1,393,867816,12,83.0,True,867816,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-165,875682,1,354,878847,12,83.0,False,896424,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-165,875682,1,280,858829,12,83.0,True,858829,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-345,1059402,5,384,1049711,12,83.0,True,1049711,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,328,1192646,3,83.0,False,1192646,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,323,1206694,3,83.0,True,1230828,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-226,813820,4,216,890152,12,78.5,False,907955,"['Standortabweichung', 'Neubau bevorzugt']",True
-133,763320,10,330,838297,12,78.5,False,838297,"['Standortabweichung', 'Neubau bevorzugt']",True
-226,813820,4,402,882810,12,78.5,True,882810,"['Standortabweichung', 'Neubau bevorzugt']",True
-108,798980,1,280,858829,12,78.5,False,876006,"['Standortabweichung', 'Altbau bevorzugt']",True
-223,806885,1,402,882810,12,78.5,True,882810,"['Standortabweichung', 'Neubau bevorzugt']",True
-108,798980,1,354,878847,12,78.5,True,896424,"['Standortabweichung', 'Altbau bevorzugt']",True
-223,806885,1,123,880811,12,78.5,False,880811,"['Standortabweichung', 'Neubau bevorzugt']",True
-223,806885,1,280,858829,12,78.5,False,876006,"['Standortabweichung', 'Neubau bevorzugt']",True
-108,798980,1,393,867816,12,78.5,True,885172,"['Standortabweichung', 'Altbau bevorzugt']",True
-167,807583,2,402,882810,12,78.5,True,900466,"['Standortabweichung', 'Altbau bevorzugt']",True
-167,807583,2,393,867816,12,78.5,False,867816,"['Standortabweichung', 'Altbau bevorzugt']",True
-226,813820,4,280,858829,12,78.5,False,858829,"['Standortabweichung', 'Neubau bevorzugt']",True
-167,807583,2,354,878847,12,78.5,False,878847,"['Standortabweichung', 'Altbau bevorzugt']",True
-167,807583,2,280,858829,12,78.5,False,858829,"['Standortabweichung', 'Altbau bevorzugt']",True
-167,807583,2,123,880811,12,78.5,True,898427,"['Standortabweichung', 'Altbau bevorzugt']",True
-223,806885,1,393,867816,12,78.5,False,867816,"['Standortabweichung', 'Neubau bevorzugt']",True
-225,962765,8,384,1049711,12,78.5,False,1070705,"['Standortabweichung', 'Neubau bevorzugt']",True
-226,813820,4,393,867816,12,78.5,False,885172,"['Standortabweichung', 'Neubau bevorzugt']",True
-226,813820,4,354,878847,12,78.5,True,878847,"['Standortabweichung', 'Neubau bevorzugt']",True
-226,813820,4,123,880811,12,78.5,True,898427,"['Standortabweichung', 'Neubau bevorzugt']",True
-223,806885,1,354,878847,12,78.5,True,896424,"['Standortabweichung', 'Neubau bevorzugt']",True
-419,803674,8,402,882810,12,78.5,True,882810,"['Standortabweichung', 'Altbau bevorzugt']",True
-316,936404,1,354,878847,12,78.5,False,878847,"['Standortabweichung', 'Altbau bevorzugt']",True
-316,936404,1,393,867816,12,78.5,False,885172,"['Standortabweichung', 'Altbau bevorzugt']",True
-379,779782,9,330,838297,12,78.5,False,855063,"['Standortabweichung', 'Altbau bevorzugt']",True
-415,845462,2,216,890152,12,78.5,False,907955,"['Standortabweichung', 'Neubau bevorzugt']",True
-316,936404,1,280,858829,12,78.5,False,876006,"['Standortabweichung', 'Altbau bevorzugt']",True
-19,826551,1,402,882810,12,78.5,True,882810,"['Standortabweichung', 'Altbau bevorzugt']",True
-316,936404,1,123,880811,12,78.5,True,880811,"['Standortabweichung', 'Altbau bevorzugt']",True
-315,1116637,10,384,1049711,12,78.5,False,1049711,"['Standortabweichung', 'Neubau bevorzugt']",True
-85,1801749,8,228,1895228,2,78.5,False,1895228,"['Standortabweichung', 'Altbau bevorzugt']",True
-19,826551,1,354,878847,12,78.5,False,878847,"['Standortabweichung', 'Altbau bevorzugt']",True
-19,826551,1,216,890152,12,78.5,True,890152,"['Standortabweichung', 'Altbau bevorzugt']",True
-19,826551,1,123,880811,12,78.5,False,898427,"['Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,228,1895228,2,78.5,False,1895228,"['Standortabweichung', 'Altbau bevorzugt']",True
-419,803674,8,123,880811,12,78.5,False,898427,"['Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,328,1192646,3,78.5,False,1216499,"['Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,200,1152010,3,78.5,False,1175050,"['Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,116,1167012,3,78.5,False,1167012,"['Standortabweichung', 'Neubau bevorzugt']",True
-419,803674,8,280,858829,12,78.5,True,876006,"['Standortabweichung', 'Altbau bevorzugt']",True
-419,803674,8,354,878847,12,78.5,False,896424,"['Standortabweichung', 'Altbau bevorzugt']",True
-419,803674,8,393,867816,12,78.5,False,867816,"['Standortabweichung', 'Altbau bevorzugt']",True
-316,936404,1,402,882810,12,78.5,False,882810,"['Standortabweichung', 'Altbau bevorzugt']",True
-165,875682,1,330,838297,12,78.0,True,855063,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,328,1192646,3,78.0,True,1216499,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,200,1152010,3,78.0,True,1175050,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,116,1167012,3,78.0,False,1167012,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,116,1167012,3,78.0,True,1190352,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,368,1233183,3,78.0,True,1257847,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,323,1206694,3,78.0,False,1206694,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-315,1116637,10,200,1152010,3,78.0,False,1175050,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-225,962765,8,354,878847,12,70.5,True,896424,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-225,962765,8,402,882810,12,70.5,True,900466,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-315,1116637,10,328,1192646,3,70.5,True,1192646,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-315,1116637,10,323,1206694,3,70.5,False,1206694,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,200,1152010,3,70.5,False,1175050,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-417,784158,11,280,858829,12,70.5,True,876006,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-417,784158,11,330,838297,12,70.5,False,855063,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-225,962765,8,216,890152,12,70.5,False,890152,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-225,962765,8,123,880811,12,70.5,True,880811,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,332,1122441,3,70.5,False,1122441,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,332,1122441,3,70.5,True,1144890,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-345,1059402,5,244,1128930,3,70.5,True,1128930,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,332,1122441,3,70.5,True,1144890,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,244,1128930,3,70.5,True,1128930,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-225,962765,8,393,867816,12,70.5,False,885172,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-82,1337718,5,323,1206694,3,70.5,True,1230828,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,200,1152010,3,70.5,False,1152010,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,116,1167012,3,70.5,True,1167012,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-82,1337718,5,368,1233183,3,70.5,False,1233183,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,244,1128930,3,70.5,True,1128930,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-257,1263244,8,123,880811,12,66.0,True,880811,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-85,1801749,8,384,1049711,12,66.0,False,1049711,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-347,1424876,10,216,890152,12,66.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,354,878847,12,66.0,False,896424,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-347,1424876,10,280,858829,12,66.0,False,876006,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-82,1337718,5,330,838297,12,66.0,False,855063,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-86,1846008,8,384,1049711,12,66.0,False,1049711,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,332,1122441,3,66.0,False,1122441,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,330,838297,12,66.0,False,838297,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-82,1337718,5,123,880811,12,66.0,True,898427,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-347,1424876,10,330,838297,12,66.0,True,838297,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-82,1337718,5,216,890152,12,66.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-347,1424876,10,123,880811,12,66.0,False,898427,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-82,1337718,5,280,858829,12,66.0,False,876006,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,384,1049711,12,66.0,False,1049711,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-316,936404,1,330,838297,12,66.0,False,838297,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-347,1424876,10,402,882810,12,66.0,False,900466,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,216,890152,12,66.0,True,890152,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-347,1424876,10,393,867816,12,66.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-347,1424876,10,384,1049711,12,66.0,True,1070705,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-347,1424876,10,354,878847,12,66.0,False,878847,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-82,1337718,5,402,882810,12,66.0,True,882810,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,116,1167012,3,66.0,False,1190352,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,280,858829,12,66.0,False,876006,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-418,1793161,8,123,880811,12,66.0,True,898427,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-82,1337718,5,393,867816,12,66.0,True,885172,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-82,1337718,5,384,1049711,12,66.0,False,1049711,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,402,882810,12,66.0,False,882810,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-193,1236515,8,384,1049711,12,66.0,True,1070705,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-257,1263244,8,393,867816,12,66.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-418,1793161,8,402,882810,12,66.0,True,882810,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,393,867816,12,66.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,384,1049711,12,66.0,True,1049711,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,368,1233183,3,66.0,False,1233183,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,354,878847,12,66.0,False,896424,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,332,1122441,3,66.0,False,1144890,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,330,838297,12,66.0,True,838297,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,328,1192646,3,66.0,True,1192646,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,323,1206694,3,66.0,True,1206694,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,280,858829,12,66.0,False,876006,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,244,1128930,3,66.0,True,1128930,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-82,1337718,5,354,878847,12,66.0,True,896424,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,216,890152,12,66.0,False,907955,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-418,1793161,8,200,1152010,3,66.0,False,1152010,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
-257,1263244,8,244,1128930,3,66.0,True,1128930,"['Preis über Budget', 'Standortabweichung', 'Neubau bevorzugt']",True
-345,1059402,5,354,878847,12,58.0,False,896424,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,200,1152010,3,58.0,False,1175050,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,116,1167012,3,58.0,False,1190352,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,402,882810,12,58.0,True,900466,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,393,867816,12,58.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-82,1337718,5,332,1122441,3,58.0,True,1122441,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-345,1059402,5,330,838297,12,58.0,False,855063,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,280,858829,12,58.0,True,876006,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,216,890152,12,58.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-345,1059402,5,123,880811,12,58.0,True,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,244,1128930,3,58.0,True,1151509,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,280,858829,12,58.0,True,876006,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,323,1206694,3,58.0,True,1206694,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,354,878847,12,58.0,False,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,200,1152010,3,58.0,True,1175050,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,216,890152,12,58.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,244,1128930,3,58.0,False,1128930,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,280,858829,12,58.0,True,858829,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,323,1206694,3,58.0,False,1206694,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,328,1192646,3,58.0,False,1216499,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,330,838297,12,58.0,False,838297,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,332,1122441,3,58.0,True,1122441,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,368,1233183,3,58.0,False,1233183,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,328,1192646,3,58.0,False,1216499,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,384,1049711,12,58.0,False,1049711,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,393,867816,12,58.0,True,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-14,1638139,1,402,882810,12,58.0,False,900466,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-82,1337718,5,116,1167012,3,58.0,True,1167012,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-82,1337718,5,200,1152010,3,58.0,False,1175050,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-82,1337718,5,244,1128930,3,58.0,False,1128930,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-347,1424876,10,368,1233183,3,58.0,True,1257847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-347,1424876,10,332,1122441,3,58.0,True,1144890,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-82,1337718,5,328,1192646,3,58.0,True,1192646,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,330,838297,12,58.0,False,838297,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,116,1167012,3,58.0,True,1190352,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,328,1192646,3,58.0,False,1192646,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,280,858829,12,58.0,False,876006,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,368,1233183,3,58.0,True,1233183,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,216,890152,12,58.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,123,880811,12,58.0,False,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,393,867816,12,58.0,True,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,402,882810,12,58.0,False,900466,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-137,1875834,1,116,1167012,3,58.0,True,1167012,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,123,880811,12,58.0,False,898427,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,200,1152010,3,58.0,True,1152010,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,216,890152,12,58.0,True,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,244,1128930,3,58.0,True,1151509,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,280,858829,12,58.0,True,876006,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,323,1206694,3,58.0,False,1206694,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-14,1638139,1,123,880811,12,58.0,False,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-137,1875834,1,330,838297,12,58.0,False,855063,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,332,1122441,3,58.0,True,1144890,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-225,962765,8,330,838297,12,58.0,False,838297,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-225,962765,8,280,858829,12,58.0,False,858829,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-137,1875834,1,332,1122441,3,58.0,True,1144890,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,354,878847,12,58.0,True,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,368,1233183,3,58.0,False,1257847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,384,1049711,12,58.0,True,1049711,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,393,867816,12,58.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-137,1875834,1,402,882810,12,58.0,False,900466,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-193,1236515,8,123,880811,12,58.0,True,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,402,882810,12,58.0,False,882810,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,393,867816,12,58.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,354,878847,12,58.0,False,896424,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,216,890152,12,58.0,False,907955,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-193,1236515,8,330,838297,12,58.0,False,855063,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,354,878847,12,58.0,True,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,330,838297,12,58.0,True,838297,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,123,880811,12,58.0,True,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,354,878847,12,58.0,True,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,200,1152010,3,58.0,False,1152010,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,402,882810,12,58.0,True,882810,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-315,1116637,10,393,867816,12,58.0,False,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,216,890152,12,58.0,False,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,354,878847,12,58.0,True,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,244,1128930,3,58.0,True,1128930,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,280,858829,12,58.0,True,858829,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,323,1206694,3,58.0,True,1206694,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,280,858829,12,58.0,True,858829,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,328,1192646,3,58.0,False,1192646,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,216,890152,12,58.0,True,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,330,838297,12,58.0,False,855063,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-315,1116637,10,123,880811,12,58.0,True,880811,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,332,1122441,3,58.0,True,1122441,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,368,1233183,3,58.0,False,1257847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,330,838297,12,58.0,True,838297,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-85,1801749,8,393,867816,12,58.0,True,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-85,1801749,8,402,882810,12,58.0,True,882810,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,116,1167012,3,58.0,True,1190352,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,123,880811,12,58.0,True,898427,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,200,1152010,3,58.0,True,1152010,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,216,890152,12,58.0,True,890152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,244,1128930,3,58.0,False,1151509,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,280,858829,12,58.0,True,876006,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-86,1846008,8,323,1206694,3,58.0,True,1230828,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,402,882810,12,58.0,False,882810,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,393,867816,12,58.0,True,867816,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-256,1208680,2,384,1049711,12,58.0,True,1070705,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-86,1846008,8,328,1192646,3,58.0,True,1192646,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
-256,1208680,2,354,878847,12,58.0,True,878847,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
-14,1638139,1,116,1167012,3,58.0,False,1167012,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+89,825121,1,339,821983,11,91.0,True,821983,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,328,827902,11,91.0,False,827902,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,140,814915,11,91.0,True,814915,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,401,812307,11,91.0,True,812307,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,346,816717,11,91.0,False,833051,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,295,814675,11,91.0,False,830968,"['Standortabweichung', 'Neubau bevorzugt']",True
+321,444873,4,402,450000,4,89.0,False,450000,"['Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+89,825121,1,149,847888,11,86.0,False,847888,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,242,846695,11,86.0,False,863629,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,274,862894,11,86.0,False,880152,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,375,805088,11,86.0,False,821190,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,388,806867,11,86.0,False,806867,"['Standortabweichung', 'Neubau bevorzugt']",True
+132,1024125,8,264,1068953,9,86.0,False,1090332,"['Standortabweichung', 'Altbau bevorzugt']",True
+55,1062161,1,264,1068953,9,83.0,True,1068953,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+57,796998,6,401,812307,11,83.0,True,828553,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,388,806867,11,83.0,False,806867,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,375,805088,11,83.0,False,821190,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+395,450655,11,402,450000,4,83.0,True,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+13,740247,1,375,805088,11,78.5,True,805088,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,350,872515,11,78.5,False,872515,"['Standortabweichung', 'Neubau bevorzugt']",True
+13,740247,1,401,812307,11,78.5,False,812307,"['Standortabweichung', 'Neubau bevorzugt']",True
+13,740247,1,388,806867,11,78.5,False,806867,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,382,871190,11,78.5,False,888614,"['Standortabweichung', 'Neubau bevorzugt']",True
+89,825121,1,317,868524,11,78.5,True,868524,"['Standortabweichung', 'Neubau bevorzugt']",True
+57,796998,6,339,821983,11,78.0,False,821983,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,328,827902,11,78.0,False,844460,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,295,814675,11,78.0,True,830968,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,140,814915,11,78.0,False,814915,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,346,816717,11,78.0,True,833051,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,264,1068953,9,78.0,True,1068953,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+11,770447,2,375,805088,11,78.0,True,805088,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,388,806867,11,78.0,False,806867,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+325,466280,10,402,450000,4,78.0,True,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+258,467656,10,402,450000,4,78.0,True,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+11,770447,2,346,816717,11,70.5,False,833051,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,317,868524,11,70.5,False,868524,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+9,495423,2,402,450000,4,70.5,False,450000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,274,862894,11,70.5,True,880152,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,149,847888,11,70.5,False,847888,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,328,827902,11,70.5,True,827902,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,350,872515,11,70.5,False,872515,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,382,871190,11,70.5,False,871190,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,401,812307,11,70.5,False,828553,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,382,871190,11,70.5,True,888614,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,339,821983,11,70.5,False,821983,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,295,814675,11,70.5,False,814675,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,350,872515,11,70.5,False,889965,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,140,814915,11,70.5,False,831213,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+356,931173,5,149,847888,11,70.5,False,847888,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,242,846695,11,70.5,False,846695,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+163,499091,2,402,450000,4,70.5,False,459000,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+356,931173,5,274,862894,11,70.5,False,880152,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,317,868524,11,70.5,True,868524,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,350,872515,11,70.5,False,872515,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,382,871190,11,70.5,False,871190,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+57,796998,6,317,868524,11,70.5,False,885894,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+11,770447,2,242,846695,11,70.5,False,863629,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,149,847888,11,70.5,False,847888,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,242,846695,11,70.5,False,863629,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,274,862894,11,70.5,True,862894,"['Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+359,1258277,2,274,862894,11,66.0,False,880152,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,149,847888,11,66.0,False,847888,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,242,846695,11,66.0,True,863629,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,264,1068953,9,66.0,True,1068953,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,140,814915,11,66.0,False,814915,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,328,827902,11,66.0,True,827902,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,295,814675,11,66.0,False,814675,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,350,872515,11,66.0,True,872515,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+391,1692839,1,264,1068953,9,66.0,True,1068953,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,401,812307,11,66.0,False,828553,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,388,806867,11,66.0,False,823004,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,382,871190,11,66.0,False,871190,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,375,805088,11,66.0,False,805088,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,346,816717,11,66.0,False,833051,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,339,821983,11,66.0,False,821983,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+359,1258277,2,317,868524,11,66.0,False,885894,"['Preis über Budget', 'Standortabweichung', 'Altbau bevorzugt']",True
+393,550415,4,402,450000,4,64.0,True,450000,"['Preis über Budget', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+130,1308052,1,264,1068953,9,61.0,False,1090332,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche']",True
+286,1405819,2,264,1068953,9,61.0,True,1068953,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche']",True
+286,1405819,2,274,862894,11,58.0,False,862894,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,317,868524,11,58.0,False,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,295,814675,11,58.0,True,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,328,827902,11,58.0,False,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,346,816717,11,58.0,False,816717,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,242,846695,11,58.0,True,846695,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,339,821983,11,58.0,False,821983,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,149,847888,11,58.0,False,847888,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,274,862894,11,58.0,True,862894,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,350,872515,11,58.0,True,872515,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,295,814675,11,58.0,True,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,140,814915,11,58.0,False,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,317,868524,11,58.0,True,885894,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,328,827902,11,58.0,True,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,339,821983,11,58.0,False,821983,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,242,846695,11,58.0,False,846695,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,149,847888,11,58.0,False,847888,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,346,816717,11,58.0,True,833051,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,350,872515,11,58.0,False,872515,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,375,805088,11,58.0,False,805088,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,382,871190,11,58.0,True,871190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,388,806867,11,58.0,False,823004,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+286,1405819,2,401,812307,11,58.0,True,828553,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,382,871190,11,58.0,True,871190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+323,1107199,6,375,805088,11,58.0,False,821190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,401,812307,11,58.0,True,812307,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,388,806867,11,58.0,False,806867,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,401,812307,11,58.0,True,812307,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,382,871190,11,58.0,False,888614,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,375,805088,11,58.0,False,821190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,350,872515,11,58.0,False,889965,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,346,816717,11,58.0,False,833051,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,339,821983,11,58.0,False,821983,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,328,827902,11,58.0,True,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,317,868524,11,58.0,True,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,295,814675,11,58.0,False,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,274,862894,11,58.0,False,880152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,242,846695,11,58.0,True,863629,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,149,847888,11,58.0,True,847888,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,140,814915,11,58.0,True,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+360,594322,2,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+359,1258277,2,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+392,647756,9,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+262,575660,12,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+391,1692839,1,388,806867,11,58.0,True,806867,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+358,729757,11,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,401,812307,11,58.0,True,828553,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,388,806867,11,58.0,True,823004,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,375,805088,11,58.0,False,805088,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,346,816717,11,58.0,True,833051,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,339,821983,11,58.0,True,821983,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,328,827902,11,58.0,True,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,295,814675,11,58.0,False,830968,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+356,931173,5,140,814915,11,58.0,False,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+323,1107199,6,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+286,1405819,2,140,814915,11,58.0,False,831213,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+3,642278,2,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+261,641842,3,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,242,846695,11,58.0,True,863629,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,295,814675,11,58.0,False,830968,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,328,827902,11,58.0,False,844460,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,339,821983,11,58.0,False,838423,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,346,816717,11,58.0,False,833051,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,375,805088,11,58.0,False,805088,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,388,806867,11,58.0,True,823004,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+78,942053,8,401,812307,11,58.0,False,828553,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+89,825121,1,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+57,796998,6,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+108,602210,1,402,450000,4,58.0,True,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+110,626465,1,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,140,814915,11,58.0,False,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,149,847888,11,58.0,False,864846,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,242,846695,11,58.0,False,846695,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,264,1068953,9,58.0,False,1090332,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,274,862894,11,58.0,True,862894,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,295,814675,11,58.0,False,830968,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+78,942053,8,140,814915,11,58.0,True,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+55,1062161,1,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+227,714775,12,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,274,862894,11,58.0,True,880152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+11,770447,2,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+13,740247,1,402,450000,4,58.0,True,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+14,691836,8,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+15,596289,1,402,450000,4,58.0,True,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+21,605153,2,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+55,1062161,1,140,814915,11,58.0,True,831213,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,149,847888,11,58.0,False,864846,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,242,846695,11,58.0,True,846695,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,295,814675,11,58.0,False,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,401,812307,11,58.0,True,812307,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,317,868524,11,58.0,False,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,328,827902,11,58.0,True,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,339,821983,11,58.0,True,838423,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,346,816717,11,58.0,True,816717,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,350,872515,11,58.0,False,872515,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,375,805088,11,58.0,True,821190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,382,871190,11,58.0,True,871190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+55,1062161,1,388,806867,11,58.0,False,823004,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,317,868524,11,58.0,True,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,328,827902,11,58.0,False,844460,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,339,821983,11,58.0,False,838423,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,339,821983,11,58.0,True,821983,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+131,670616,6,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+132,1024125,8,140,814915,11,58.0,False,814915,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,149,847888,11,58.0,True,847888,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,242,846695,11,58.0,True,863629,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,274,862894,11,58.0,True,880152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,295,814675,11,58.0,True,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,317,868524,11,58.0,False,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,328,827902,11,58.0,True,844460,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,346,816717,11,58.0,False,816717,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,346,816717,11,58.0,False,816717,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,350,872515,11,58.0,False,872515,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,375,805088,11,58.0,True,805088,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,382,871190,11,58.0,True,888614,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,388,806867,11,58.0,True,806867,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,401,812307,11,58.0,False,828553,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+132,1024125,8,402,450000,4,58.0,True,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+193,580960,12,402,450000,4,58.0,True,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+226,586673,5,402,450000,4,58.0,False,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,401,812307,11,58.0,True,812307,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+6,672065,5,402,450000,4,58.0,False,459000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,382,871190,11,58.0,True,888614,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+111,1720674,8,350,872515,11,58.0,False,889965,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,375,805088,11,58.0,True,821190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,382,871190,11,58.0,False,871190,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,388,806867,11,58.0,True,806867,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,401,812307,11,58.0,True,812307,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+111,1720674,8,402,450000,4,58.0,True,450000,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Altbau bevorzugt']",True
+130,1308052,1,140,814915,11,58.0,False,831213,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,149,847888,11,58.0,True,847888,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,242,846695,11,58.0,False,863629,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,274,862894,11,58.0,False,880152,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,295,814675,11,58.0,False,814675,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,317,868524,11,58.0,False,868524,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,328,827902,11,58.0,False,827902,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,339,821983,11,58.0,True,838423,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,346,816717,11,58.0,False,816717,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,350,872515,11,58.0,True,872515,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,375,805088,11,58.0,False,805088,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
+130,1308052,1,388,806867,11,58.0,True,806867,"['Preis über Budget', 'Standortabweichung', 'Fläche kleiner als Wunschfläche', 'Neubau bevorzugt']",True
