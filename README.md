@@ -1,12 +1,12 @@
 # Hypothese 3 – Prognoseverbesserung durch heterogene Agententypen & Datenquellen
 
-Diese Simulation überprüft die Hypothese, dass durch die Kombination unterschiedlicher Agententypen sowie die Integration vielfältiger strukturierter, verhaltens- und makroökonomischer Datenquellen die Prognosegüte von Angebot und Nachfrage auf dem Immobilienmarkt signifikant verbessert werden kann. Das Modell bildet eine erweiterte und realitätsnahe Version des Immobilienmarkts auf Agentenbasis ab.
+Diese Simulation überprüft die Hypothese, dass durch die Kombination unterschiedlicher Agententypen sowie die Integration vielfältiger strukturierter, verhaltens- und makroökonomischer Datenquellen die Prognosegüte von Angebot und Nachfrage auf dem Immobilienmarkt verbessert werden kann. Das Modell bildet eine erweiterte und realitätsnahe Version des Immobilienmarkts auf Agentenbasis ab.
 
 ---
 
 ## Ziel der Hypothese
 
-> Die Kombination heterogener Agententypen mit externen verhaltens- und strukturbezogenen Datenquellen innerhalb eines Multi-Agenten-Systems führt zu einer signifikanten Verbesserung der Vorhersagequalität von Angebot und Nachfrage auf dem Immobilienmarkt.
+> Die Kombination heterogener Agententypen mit externen verhaltens- und strukturbezogenen Datenquellen innerhalb eines Multi-Agenten-Systems führt zu einer Verbesserung der Vorhersagequalität von Angebot und Nachfrage auf dem Immobilienmarkt.
 
 Zentrale Erweiterungen im Vergleich zu Hypothese 1 und 2:
 
