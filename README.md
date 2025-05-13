@@ -6,7 +6,7 @@ Diese Simulation überprüft die Hypothese, dass durch die Kombination unterschi
 
 ## Ziel der Hypothese
 
-> Die Kombination heterogener Agententypen mit externen verhaltens- und strukturbezogenen Datenquellen innerhalb eines Multi-Agentensystems führt zu einer signifikanten Verbesserung der Vorhersagequalität von Angebot und Nachfrage auf dem Immobilienmarkt.
+> Die Kombination heterogener Agententypen mit externen verhaltens- und strukturbezogenen Datenquellen innerhalb eines Multi-Agenten-Systems führt zu einer signifikanten Verbesserung der Vorhersagequalität von Angebot und Nachfrage auf dem Immobilienmarkt.
 
 Zentrale Erweiterungen im Vergleich zu Hypothese 1 und 2:
 
